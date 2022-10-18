@@ -1,0 +1,20 @@
+.body {
+    /*margin: 2px 5% 2px 5%;*/
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 12px;
+    font-family: monospace;
+    margin-left: unset;
+}
+
+.body-header {
+    background-color: #1F2937;
+    box-shadow: 0 0 0 100vmax #1F2937;
+    clip-path: inset(-100vmax -100vmax 0); 
+    color: #F9FAF8;
+}
