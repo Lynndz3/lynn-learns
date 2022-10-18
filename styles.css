@@ -1,20 +1,113 @@
 .body {
-    /*margin: 2px 5% 2px 5%;*/
     display: flex;
     flex-direction: column;
-}
-
-#logo {
-    font-weight: bold;
-    color: #F9FAF8;
-    font-size: 12px;
-    font-family: monospace;
-    margin-left: unset;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .body-header {
     background-color: #1F2937;
     box-shadow: 0 0 0 100vmax #1F2937;
     clip-path: inset(-100vmax -100vmax 0); 
+    margin: 1px 5% 2px 5%;
+}
+
+.header-container {
+    display: flex;
+    gap: 10%;
+    padding: 4%;
+    flex: 1;
+}
+
+.header-container p {
+    font-size: 18px;
+    font-weight: 200;
+    color: #E5e7eb;
+}
+
+#logo {
+    font-weight: bold;
+    color: #1F2937;
+    font-size:14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: -4.5%;
+    background-color: rgb(241, 167, 70);
+    text-align: center;
+    padding: 8px;
+    width: 100px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
     color: #F9FAF8;
+}
+
+.paths img {
+    border-radius: 25px;
+    width: 200px;
+    height: 200px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border-color: #3882f6;
+    padding: 1% 5% 1%;
+    border-style: none;
+    margin-top: 2%;
+}
+
+.content h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    color: 1F2937;
+    margin: 4%;
+}
+
+.paths {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 20px;
+    background-color: #E5e7eb;
+    color: #1F2937;
+    box-shadow: 0 0 0 100vmax #E5e7eb;
+    clip-path: inset(0 -100vmax); 
+    padding: 5%;
+    text-align: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me {
+    padding-left: 5%;
+    padding-right: 15%;
+    gap: 20px;
+    display: flex;
+    margin: 5%;
+    margin-top: 3%;
+}
+
+.about-me img {
+  /*box-shadow: 0 10px 10px -8px grey;*/
+  border-radius: 25px;
+  margin-right: 3%;
+}
+
+.header-container img {
+  border-radius: 25px;
+  border-style: ridge;
+  border-color: grey;
 }
