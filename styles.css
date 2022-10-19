@@ -9,13 +9,20 @@
     box-shadow: 0 0 0 100vmax #1F2937;
     clip-path: inset(-100vmax -100vmax 0); 
     margin: 1px 5% 2px 5%;
+    padding-bottom: 3%;
 }
 
 .header-container {
     display: flex;
-    gap: 10%;
-    padding: 4%;
-    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-container img {
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+    margin-left: 5%;
 }
 
 .header-container p {
@@ -44,8 +51,8 @@ h1 {
 
 .paths img {
     border-radius: 25px;
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 210px;
 }
 
 button {
@@ -63,7 +70,10 @@ button {
     font-weight: bolder;
     text-align: center;
     color: 1F2937;
-    margin: 4%;
+}
+
+.content p {
+    font-size: 18px;
 }
 
 .paths {
@@ -71,11 +81,16 @@ button {
     gap: 100px;
     justify-content: center;
     flex-wrap: wrap;
+    padding-top: 2%;
+}
+
+.content {
+    padding: 3%;
 }
 
 .quote {
     font-style: italic;
-    font-size: 20px;
+    font-size: 32px;
     background-color: #E5e7eb;
     color: #1F2937;
     box-shadow: 0 0 0 100vmax #E5e7eb;
@@ -92,22 +107,18 @@ button {
 }
 
 .about-me {
-    padding-left: 5%;
-    padding-right: 15%;
-    gap: 20px;
+    padding: 1% 15% 3% 10%;
+    gap: 5%;
     display: flex;
-    margin: 5%;
-    margin-top: 3%;
+    align-items: center;
+    justify-content: center;
+    /*margin: 5%;
+    margin-top: 3%;*/
 }
 
 .about-me img {
-  /*box-shadow: 0 10px 10px -8px grey;*/
-  border-radius: 25px;
-  margin-right: 3%;
-}
-
-.header-container img {
-  border-radius: 25px;
-  border-style: ridge;
-  border-color: grey;
+  border-radius: 10px;
+  border-color: #E5e7eb;
+  height: 150px;
+  width: auto;
 }
